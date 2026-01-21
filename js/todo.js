@@ -35,6 +35,7 @@ function addTask() {
 
   tasks.push(text);
   taskInput.value = "";
+  errorMsg.classList.add("hidden");
   saveTasks();
   displayTasks();
 }
