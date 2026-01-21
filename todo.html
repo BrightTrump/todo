@@ -25,15 +25,15 @@
         <button type="button" onclick="clearAllTask()" class="bg-red-500">
           Clear All
         </button>
-        <button type="button" onclick="AddTask()" class="bg-black">
+        <button type="button" onclick="addTask()" class="bg-black">
           Add Task
         </button>
       </div>
 
+      <p class="error text-red-500 text-sm hidden">Input can't be empty</p>
+
       <!-- Todo List -->
-      <ul class="list-disc pl-5" id="List">
-        <li></li>
-      </ul>
+      <ol class="list-disc px-3" id="list"></ol>
     </div>
   </body>
 </html>
